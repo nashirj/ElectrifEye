@@ -12,6 +12,10 @@ void Point::setCoordinates(std::pair<int, int> newCoordinates) {
     coordinates = newCoordinates;
 }
 
+void Point::setCoordinates(int x, int y) {
+    coordinates = std::make_pair(x, y);
+}
+
 int Point::getX() {
     return coordinates.first;
 }

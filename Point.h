@@ -9,11 +9,14 @@
 
 class Point {
 private:
+    // coordinates.first == x, coordinates.second == y
     std::pair<int, int> coordinates;
 public:
     const std::pair<int, int>& getCoordinates();
 
     void setCoordinates(std::pair<int, int> newCoordinates);
+
+    void setCoordinates(int x, int y);
 
     int getX();
 
