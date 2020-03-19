@@ -1,0 +1,3 @@
+/Users/nashish/Documents/Education/CS/projects/ElectrifEye/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/nashish/Documents/Education/CS/projects/ElectrifEye/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/nashish/Documents/Education/CS/projects/ElectrifEye/cmake-build-debug/CMakeFiles/ElectrifEye.dir
