@@ -19,7 +19,7 @@ public:
     static float getForceMagnitude(std::shared_ptr<PointCharge> c1, std::shared_ptr<PointCharge> c2);
 
     // units of N/C
-    static float getElectricFieldAtPoint(std::shared_ptr<World> w, std::shared_ptr<Point> p) {
+    static float getElectricFieldAtPoint(std::shared_ptr<World> w, std::shared_ptr<Point> p);
 };
 
 
