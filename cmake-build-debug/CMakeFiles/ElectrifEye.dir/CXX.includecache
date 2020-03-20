@@ -6,37 +6,43 @@
 
 #IncludeRegexTransform: 
 
-/Users/nashish/Documents/Education/CS/projects/ElectrifEye/Charge.cpp
-Charge.h
-/Users/nashish/Documents/Education/CS/projects/ElectrifEye/Charge.h
-
 /Users/nashish/Documents/Education/CS/projects/ElectrifEye/Charge.h
 math.h
 -
 
-/Users/nashish/Documents/Education/CS/projects/ElectrifEye/Point.cpp
+/Users/nashish/Documents/Education/CS/projects/ElectrifEye/Constants.h
+
+/Users/nashish/Documents/Education/CS/projects/ElectrifEye/ElectricFieldController.cpp
+ElectricFieldController.h
+/Users/nashish/Documents/Education/CS/projects/ElectrifEye/ElectricFieldController.h
+
+/Users/nashish/Documents/Education/CS/projects/ElectrifEye/ElectricFieldController.h
+memory
+-
+Constants.h
+/Users/nashish/Documents/Education/CS/projects/ElectrifEye/Constants.h
+PointCharge.h
+/Users/nashish/Documents/Education/CS/projects/ElectrifEye/PointCharge.h
+GeometryController.h
+/Users/nashish/Documents/Education/CS/projects/ElectrifEye/GeometryController.h
+
+/Users/nashish/Documents/Education/CS/projects/ElectrifEye/GeometryController.h
+cmath
+-
+memory
+-
 Point.h
 /Users/nashish/Documents/Education/CS/projects/ElectrifEye/Point.h
 
 /Users/nashish/Documents/Education/CS/projects/ElectrifEye/Point.h
 utility
 -
-
-/Users/nashish/Documents/Education/CS/projects/ElectrifEye/World.cpp
-World.h
-/Users/nashish/Documents/Education/CS/projects/ElectrifEye/World.h
-
-/Users/nashish/Documents/Education/CS/projects/ElectrifEye/World.h
-utility
+memory
 -
 
-/Users/nashish/Documents/Education/CS/projects/ElectrifEye/main.cpp
-iostream
--
+/Users/nashish/Documents/Education/CS/projects/ElectrifEye/PointCharge.h
 Charge.h
 /Users/nashish/Documents/Education/CS/projects/ElectrifEye/Charge.h
-wtypes.h
-/Users/nashish/Documents/Education/CS/projects/ElectrifEye/wtypes.h
-iostream
--
+Point.h
+/Users/nashish/Documents/Education/CS/projects/ElectrifEye/Point.h
 

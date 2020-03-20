@@ -150,6 +150,60 @@ Charge.cpp.s:
 	$(MAKE) -f CMakeFiles/ElectrifEye.dir/build.make CMakeFiles/ElectrifEye.dir/Charge.cpp.s
 .PHONY : Charge.cpp.s
 
+ElectricFieldController.o: ElectricFieldController.cpp.o
+
+.PHONY : ElectricFieldController.o
+
+# target to build an object file
+ElectricFieldController.cpp.o:
+	$(MAKE) -f CMakeFiles/ElectrifEye.dir/build.make CMakeFiles/ElectrifEye.dir/ElectricFieldController.cpp.o
+.PHONY : ElectricFieldController.cpp.o
+
+ElectricFieldController.i: ElectricFieldController.cpp.i
+
+.PHONY : ElectricFieldController.i
+
+# target to preprocess a source file
+ElectricFieldController.cpp.i:
+	$(MAKE) -f CMakeFiles/ElectrifEye.dir/build.make CMakeFiles/ElectrifEye.dir/ElectricFieldController.cpp.i
+.PHONY : ElectricFieldController.cpp.i
+
+ElectricFieldController.s: ElectricFieldController.cpp.s
+
+.PHONY : ElectricFieldController.s
+
+# target to generate assembly for a file
+ElectricFieldController.cpp.s:
+	$(MAKE) -f CMakeFiles/ElectrifEye.dir/build.make CMakeFiles/ElectrifEye.dir/ElectricFieldController.cpp.s
+.PHONY : ElectricFieldController.cpp.s
+
+GeometryController.o: GeometryController.cpp.o
+
+.PHONY : GeometryController.o
+
+# target to build an object file
+GeometryController.cpp.o:
+	$(MAKE) -f CMakeFiles/ElectrifEye.dir/build.make CMakeFiles/ElectrifEye.dir/GeometryController.cpp.o
+.PHONY : GeometryController.cpp.o
+
+GeometryController.i: GeometryController.cpp.i
+
+.PHONY : GeometryController.i
+
+# target to preprocess a source file
+GeometryController.cpp.i:
+	$(MAKE) -f CMakeFiles/ElectrifEye.dir/build.make CMakeFiles/ElectrifEye.dir/GeometryController.cpp.i
+.PHONY : GeometryController.cpp.i
+
+GeometryController.s: GeometryController.cpp.s
+
+.PHONY : GeometryController.s
+
+# target to generate assembly for a file
+GeometryController.cpp.s:
+	$(MAKE) -f CMakeFiles/ElectrifEye.dir/build.make CMakeFiles/ElectrifEye.dir/GeometryController.cpp.s
+.PHONY : GeometryController.cpp.s
+
 Point.o: Point.cpp.o
 
 .PHONY : Point.o
@@ -176,6 +230,33 @@ Point.s: Point.cpp.s
 Point.cpp.s:
 	$(MAKE) -f CMakeFiles/ElectrifEye.dir/build.make CMakeFiles/ElectrifEye.dir/Point.cpp.s
 .PHONY : Point.cpp.s
+
+PointCharge.o: PointCharge.cpp.o
+
+.PHONY : PointCharge.o
+
+# target to build an object file
+PointCharge.cpp.o:
+	$(MAKE) -f CMakeFiles/ElectrifEye.dir/build.make CMakeFiles/ElectrifEye.dir/PointCharge.cpp.o
+.PHONY : PointCharge.cpp.o
+
+PointCharge.i: PointCharge.cpp.i
+
+.PHONY : PointCharge.i
+
+# target to preprocess a source file
+PointCharge.cpp.i:
+	$(MAKE) -f CMakeFiles/ElectrifEye.dir/build.make CMakeFiles/ElectrifEye.dir/PointCharge.cpp.i
+.PHONY : PointCharge.cpp.i
+
+PointCharge.s: PointCharge.cpp.s
+
+.PHONY : PointCharge.s
+
+# target to generate assembly for a file
+PointCharge.cpp.s:
+	$(MAKE) -f CMakeFiles/ElectrifEye.dir/build.make CMakeFiles/ElectrifEye.dir/PointCharge.cpp.s
+.PHONY : PointCharge.cpp.s
 
 World.o: World.cpp.o
 
@@ -243,9 +324,18 @@ help:
 	@echo "... Charge.o"
 	@echo "... Charge.i"
 	@echo "... Charge.s"
+	@echo "... ElectricFieldController.o"
+	@echo "... ElectricFieldController.i"
+	@echo "... ElectricFieldController.s"
+	@echo "... GeometryController.o"
+	@echo "... GeometryController.i"
+	@echo "... GeometryController.s"
 	@echo "... Point.o"
 	@echo "... Point.i"
 	@echo "... Point.s"
+	@echo "... PointCharge.o"
+	@echo "... PointCharge.i"
+	@echo "... PointCharge.s"
 	@echo "... World.o"
 	@echo "... World.i"
 	@echo "... World.s"

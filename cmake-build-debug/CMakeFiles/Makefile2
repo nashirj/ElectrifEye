@@ -74,12 +74,12 @@ preinstall:
 CMakeFiles/ElectrifEye.dir/all:
 	$(MAKE) -f CMakeFiles/ElectrifEye.dir/build.make CMakeFiles/ElectrifEye.dir/depend
 	$(MAKE) -f CMakeFiles/ElectrifEye.dir/build.make CMakeFiles/ElectrifEye.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/nashish/Documents/Education/CS/projects/ElectrifEye/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target ElectrifEye"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/nashish/Documents/Education/CS/projects/ElectrifEye/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target ElectrifEye"
 .PHONY : CMakeFiles/ElectrifEye.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ElectrifEye.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nashish/Documents/Education/CS/projects/ElectrifEye/cmake-build-debug/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nashish/Documents/Education/CS/projects/ElectrifEye/cmake-build-debug/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ElectrifEye.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nashish/Documents/Education/CS/projects/ElectrifEye/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/ElectrifEye.dir/rule

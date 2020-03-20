@@ -5,7 +5,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/nashish/Documents/Education/CS/projects/ElectrifEye/Charge.cpp" "/Users/nashish/Documents/Education/CS/projects/ElectrifEye/cmake-build-debug/CMakeFiles/ElectrifEye.dir/Charge.cpp.o"
+  "/Users/nashish/Documents/Education/CS/projects/ElectrifEye/ElectricFieldController.cpp" "/Users/nashish/Documents/Education/CS/projects/ElectrifEye/cmake-build-debug/CMakeFiles/ElectrifEye.dir/ElectricFieldController.cpp.o"
+  "/Users/nashish/Documents/Education/CS/projects/ElectrifEye/GeometryController.cpp" "/Users/nashish/Documents/Education/CS/projects/ElectrifEye/cmake-build-debug/CMakeFiles/ElectrifEye.dir/GeometryController.cpp.o"
   "/Users/nashish/Documents/Education/CS/projects/ElectrifEye/Point.cpp" "/Users/nashish/Documents/Education/CS/projects/ElectrifEye/cmake-build-debug/CMakeFiles/ElectrifEye.dir/Point.cpp.o"
+  "/Users/nashish/Documents/Education/CS/projects/ElectrifEye/PointCharge.cpp" "/Users/nashish/Documents/Education/CS/projects/ElectrifEye/cmake-build-debug/CMakeFiles/ElectrifEye.dir/PointCharge.cpp.o"
   "/Users/nashish/Documents/Education/CS/projects/ElectrifEye/World.cpp" "/Users/nashish/Documents/Education/CS/projects/ElectrifEye/cmake-build-debug/CMakeFiles/ElectrifEye.dir/World.cpp.o"
   "/Users/nashish/Documents/Education/CS/projects/ElectrifEye/main.cpp" "/Users/nashish/Documents/Education/CS/projects/ElectrifEye/cmake-build-debug/CMakeFiles/ElectrifEye.dir/main.cpp.o"
   )

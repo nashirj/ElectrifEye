@@ -89,10 +89,28 @@
 		<Unit filename="/Users/nashish/Documents/Education/CS/projects/ElectrifEye/Constants.h">
 			<Option target="ElectrifEye"/>
 		</Unit>
+		<Unit filename="/Users/nashish/Documents/Education/CS/projects/ElectrifEye/ElectricFieldController.cpp">
+			<Option target="ElectrifEye"/>
+		</Unit>
+		<Unit filename="/Users/nashish/Documents/Education/CS/projects/ElectrifEye/ElectricFieldController.h">
+			<Option target="ElectrifEye"/>
+		</Unit>
+		<Unit filename="/Users/nashish/Documents/Education/CS/projects/ElectrifEye/GeometryController.cpp">
+			<Option target="ElectrifEye"/>
+		</Unit>
+		<Unit filename="/Users/nashish/Documents/Education/CS/projects/ElectrifEye/GeometryController.h">
+			<Option target="ElectrifEye"/>
+		</Unit>
 		<Unit filename="/Users/nashish/Documents/Education/CS/projects/ElectrifEye/Point.cpp">
 			<Option target="ElectrifEye"/>
 		</Unit>
 		<Unit filename="/Users/nashish/Documents/Education/CS/projects/ElectrifEye/Point.h">
+			<Option target="ElectrifEye"/>
+		</Unit>
+		<Unit filename="/Users/nashish/Documents/Education/CS/projects/ElectrifEye/PointCharge.cpp">
+			<Option target="ElectrifEye"/>
+		</Unit>
+		<Unit filename="/Users/nashish/Documents/Education/CS/projects/ElectrifEye/PointCharge.h">
 			<Option target="ElectrifEye"/>
 		</Unit>
 		<Unit filename="/Users/nashish/Documents/Education/CS/projects/ElectrifEye/World.cpp">
