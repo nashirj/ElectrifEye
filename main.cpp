@@ -1,38 +1,14 @@
 #include <iostream>
 #include "Charge.h"
 
-#include "wtypes.h"
 #include <iostream>
 using namespace std;
 
-// Get the horizontal and vertical screen sizes in pixel
-void GetDesktopResolution(int& horizontal, int& vertical)
-{
-    RECT desktop;
-    // Get a handle to the desktop window
-    const HWND hDesktop = GetDesktopWindow();
-    // Get the size of screen to the variable desktop
-    GetWindowRect(hDesktop, &desktop);
-    // The top left corner will have coordinates (0,0)
-    // and the bottom right corner will have coordinates
-    // (horizontal, vertical)
-    horizontal = desktop.right;
-    vertical = desktop.bottom;
-}
+int main() {
+    std::cout << "Testing that valgrind detects memory leaks" << std::endl;
+    int* blah = new int[10];
+    std::unique_ptr<Charge> charge1 = std::make_unique<Charge>(1);
+    std::unique_ptr<Charge> charge2 = std::make_unique<Charge>(-1);
 
-int main()
-{
-    int horizontal = 0;
-    int vertical = 0;
-    GetDesktopResolution(horizontal, vertical);
-    cout << horizontal << '\n' << vertical << '\n';
     return 0;
 }
-
-//int main() {
-//    std::cout << "Hello, World!" << std::endl;
-//    std::unique_ptr<Charge> charge1 = std::make_unique<Charge>(1);
-//    std::unique_ptr<Charge> charge2 = std::make_unique<Charge>(-1);
-//
-//    return 0;
-//}
