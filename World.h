@@ -7,13 +7,20 @@
 
 #include <utility>
 
-//TODO: make this a singleton
 class World {
 private:
     // size.first == num_rows, size.second == num_cols
     std::pair<int,int> size;
 public:
+    World(std::pair<int,int> world_size);
 
+    World(int height, int width);
+
+    const std::pair<int,int>& getSize();
+
+    int getWidth();
+
+    int getHeight();
 };
 
 
