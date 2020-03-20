@@ -14,10 +14,9 @@ private:
 public:
     Charge(float magnitude);
 
-public:
-    float getMagnitude() const;
-
     void setMagnitude(float magnitude);
+
+    float getMagnitude() const;
 };
 
 

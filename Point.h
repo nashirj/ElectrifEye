@@ -6,15 +6,20 @@
 #define ELECTRIFEYE_POINT_H
 
 #include <utility>
+#include <memory>
 
 class Point {
 private:
     // coordinates.first == x, coordinates.second == y
-    std::pair<int, int> coordinates;
+    std::shared_ptr<std::pair<int, int>> coordinates;
 public:
-    const std::pair<int, int>& getCoordinates();
+    Point(int x, int y);
 
-    void setCoordinates(std::pair<int, int> newCoordinates);
+    Point(std::pair<int, int> coord);
+
+    std::shared_ptr<std::pair<int, int>> getCoordinates();
+
+    void setCoordinates(std::shared_ptr<std::pair<int, int>> newCoordinates);
 
     void setCoordinates(int x, int y);
 

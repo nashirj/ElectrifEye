@@ -7,6 +7,8 @@
 
 #include <utility>
 
+//TODO: add all point charges that are created to the world, maybe have a set
+
 class World {
 private:
     // size.first == num_rows, size.second == num_cols
@@ -22,6 +24,5 @@ public:
 
     int getHeight();
 };
-
 
 #endif //ELECTRIFEYE_WORLD_H
