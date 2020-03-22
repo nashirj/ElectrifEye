@@ -80,46 +80,46 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/nashish/Documents/Education/CS/projects/ElectrifEye/Charge.cpp">
+		<Unit filename="/Users/nashish/Documents/Education/CS/projects/ElectrifEye/include/ElectrifEye/Charge.h">
 			<Option target="ElectrifEye"/>
 		</Unit>
-		<Unit filename="/Users/nashish/Documents/Education/CS/projects/ElectrifEye/Charge.h">
+		<Unit filename="/Users/nashish/Documents/Education/CS/projects/ElectrifEye/include/ElectrifEye/Constants.h">
 			<Option target="ElectrifEye"/>
 		</Unit>
-		<Unit filename="/Users/nashish/Documents/Education/CS/projects/ElectrifEye/Constants.h">
+		<Unit filename="/Users/nashish/Documents/Education/CS/projects/ElectrifEye/include/ElectrifEye/ElectricFieldController.h">
 			<Option target="ElectrifEye"/>
 		</Unit>
-		<Unit filename="/Users/nashish/Documents/Education/CS/projects/ElectrifEye/ElectricFieldController.cpp">
+		<Unit filename="/Users/nashish/Documents/Education/CS/projects/ElectrifEye/include/ElectrifEye/GeometryController.h">
 			<Option target="ElectrifEye"/>
 		</Unit>
-		<Unit filename="/Users/nashish/Documents/Education/CS/projects/ElectrifEye/ElectricFieldController.h">
+		<Unit filename="/Users/nashish/Documents/Education/CS/projects/ElectrifEye/include/ElectrifEye/Point.h">
 			<Option target="ElectrifEye"/>
 		</Unit>
-		<Unit filename="/Users/nashish/Documents/Education/CS/projects/ElectrifEye/GeometryController.cpp">
+		<Unit filename="/Users/nashish/Documents/Education/CS/projects/ElectrifEye/include/ElectrifEye/PointCharge.h">
 			<Option target="ElectrifEye"/>
 		</Unit>
-		<Unit filename="/Users/nashish/Documents/Education/CS/projects/ElectrifEye/GeometryController.h">
+		<Unit filename="/Users/nashish/Documents/Education/CS/projects/ElectrifEye/include/ElectrifEye/World.h">
 			<Option target="ElectrifEye"/>
 		</Unit>
-		<Unit filename="/Users/nashish/Documents/Education/CS/projects/ElectrifEye/Point.cpp">
+		<Unit filename="/Users/nashish/Documents/Education/CS/projects/ElectrifEye/src/Charge.cpp">
 			<Option target="ElectrifEye"/>
 		</Unit>
-		<Unit filename="/Users/nashish/Documents/Education/CS/projects/ElectrifEye/Point.h">
+		<Unit filename="/Users/nashish/Documents/Education/CS/projects/ElectrifEye/src/ElectricFieldController.cpp">
 			<Option target="ElectrifEye"/>
 		</Unit>
-		<Unit filename="/Users/nashish/Documents/Education/CS/projects/ElectrifEye/PointCharge.cpp">
+		<Unit filename="/Users/nashish/Documents/Education/CS/projects/ElectrifEye/src/GeometryController.cpp">
 			<Option target="ElectrifEye"/>
 		</Unit>
-		<Unit filename="/Users/nashish/Documents/Education/CS/projects/ElectrifEye/PointCharge.h">
+		<Unit filename="/Users/nashish/Documents/Education/CS/projects/ElectrifEye/src/Point.cpp">
 			<Option target="ElectrifEye"/>
 		</Unit>
-		<Unit filename="/Users/nashish/Documents/Education/CS/projects/ElectrifEye/World.cpp">
+		<Unit filename="/Users/nashish/Documents/Education/CS/projects/ElectrifEye/src/PointCharge.cpp">
 			<Option target="ElectrifEye"/>
 		</Unit>
-		<Unit filename="/Users/nashish/Documents/Education/CS/projects/ElectrifEye/World.h">
+		<Unit filename="/Users/nashish/Documents/Education/CS/projects/ElectrifEye/src/World.cpp">
 			<Option target="ElectrifEye"/>
 		</Unit>
-		<Unit filename="/Users/nashish/Documents/Education/CS/projects/ElectrifEye/main.cpp">
+		<Unit filename="/Users/nashish/Documents/Education/CS/projects/ElectrifEye/src/main.cpp">
 			<Option target="ElectrifEye"/>
 		</Unit>
 		<Unit filename="/Users/nashish/Documents/Education/CS/projects/ElectrifEye/CMakeLists.txt">

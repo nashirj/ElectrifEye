@@ -1,9 +1,9 @@
 #include <iostream>
-#include "Charge.h"
-#include "Point.h"
-#include "PointCharge.h"
-#include "ElectricFieldController.h"
-#include "GeometryController.h"
+#include "../include/ElectrifEye/Charge.h"
+#include "../include/ElectrifEye/Point.h"
+#include "../include/ElectrifEye/PointCharge.h"
+#include "../include/ElectrifEye/ElectricFieldController.h"
+#include "../include/ElectrifEye/GeometryController.h"
 
 #include <iostream>
 using namespace std;

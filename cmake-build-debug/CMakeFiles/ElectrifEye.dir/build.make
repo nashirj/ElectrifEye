@@ -57,117 +57,117 @@ include CMakeFiles/ElectrifEye.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ElectrifEye.dir/flags.make
 
-CMakeFiles/ElectrifEye.dir/main.cpp.o: CMakeFiles/ElectrifEye.dir/flags.make
-CMakeFiles/ElectrifEye.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nashish/Documents/Education/CS/projects/ElectrifEye/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ElectrifEye.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ElectrifEye.dir/main.cpp.o -c /Users/nashish/Documents/Education/CS/projects/ElectrifEye/main.cpp
+CMakeFiles/ElectrifEye.dir/src/main.cpp.o: CMakeFiles/ElectrifEye.dir/flags.make
+CMakeFiles/ElectrifEye.dir/src/main.cpp.o: ../src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nashish/Documents/Education/CS/projects/ElectrifEye/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ElectrifEye.dir/src/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ElectrifEye.dir/src/main.cpp.o -c /Users/nashish/Documents/Education/CS/projects/ElectrifEye/src/main.cpp
 
-CMakeFiles/ElectrifEye.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ElectrifEye.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nashish/Documents/Education/CS/projects/ElectrifEye/main.cpp > CMakeFiles/ElectrifEye.dir/main.cpp.i
+CMakeFiles/ElectrifEye.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ElectrifEye.dir/src/main.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nashish/Documents/Education/CS/projects/ElectrifEye/src/main.cpp > CMakeFiles/ElectrifEye.dir/src/main.cpp.i
 
-CMakeFiles/ElectrifEye.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ElectrifEye.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nashish/Documents/Education/CS/projects/ElectrifEye/main.cpp -o CMakeFiles/ElectrifEye.dir/main.cpp.s
+CMakeFiles/ElectrifEye.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ElectrifEye.dir/src/main.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nashish/Documents/Education/CS/projects/ElectrifEye/src/main.cpp -o CMakeFiles/ElectrifEye.dir/src/main.cpp.s
 
-CMakeFiles/ElectrifEye.dir/Charge.cpp.o: CMakeFiles/ElectrifEye.dir/flags.make
-CMakeFiles/ElectrifEye.dir/Charge.cpp.o: ../Charge.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nashish/Documents/Education/CS/projects/ElectrifEye/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ElectrifEye.dir/Charge.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ElectrifEye.dir/Charge.cpp.o -c /Users/nashish/Documents/Education/CS/projects/ElectrifEye/Charge.cpp
+CMakeFiles/ElectrifEye.dir/src/Charge.cpp.o: CMakeFiles/ElectrifEye.dir/flags.make
+CMakeFiles/ElectrifEye.dir/src/Charge.cpp.o: ../src/Charge.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nashish/Documents/Education/CS/projects/ElectrifEye/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ElectrifEye.dir/src/Charge.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ElectrifEye.dir/src/Charge.cpp.o -c /Users/nashish/Documents/Education/CS/projects/ElectrifEye/src/Charge.cpp
 
-CMakeFiles/ElectrifEye.dir/Charge.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ElectrifEye.dir/Charge.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nashish/Documents/Education/CS/projects/ElectrifEye/Charge.cpp > CMakeFiles/ElectrifEye.dir/Charge.cpp.i
+CMakeFiles/ElectrifEye.dir/src/Charge.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ElectrifEye.dir/src/Charge.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nashish/Documents/Education/CS/projects/ElectrifEye/src/Charge.cpp > CMakeFiles/ElectrifEye.dir/src/Charge.cpp.i
 
-CMakeFiles/ElectrifEye.dir/Charge.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ElectrifEye.dir/Charge.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nashish/Documents/Education/CS/projects/ElectrifEye/Charge.cpp -o CMakeFiles/ElectrifEye.dir/Charge.cpp.s
+CMakeFiles/ElectrifEye.dir/src/Charge.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ElectrifEye.dir/src/Charge.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nashish/Documents/Education/CS/projects/ElectrifEye/src/Charge.cpp -o CMakeFiles/ElectrifEye.dir/src/Charge.cpp.s
 
-CMakeFiles/ElectrifEye.dir/Point.cpp.o: CMakeFiles/ElectrifEye.dir/flags.make
-CMakeFiles/ElectrifEye.dir/Point.cpp.o: ../Point.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nashish/Documents/Education/CS/projects/ElectrifEye/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ElectrifEye.dir/Point.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ElectrifEye.dir/Point.cpp.o -c /Users/nashish/Documents/Education/CS/projects/ElectrifEye/Point.cpp
+CMakeFiles/ElectrifEye.dir/src/Point.cpp.o: CMakeFiles/ElectrifEye.dir/flags.make
+CMakeFiles/ElectrifEye.dir/src/Point.cpp.o: ../src/Point.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nashish/Documents/Education/CS/projects/ElectrifEye/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ElectrifEye.dir/src/Point.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ElectrifEye.dir/src/Point.cpp.o -c /Users/nashish/Documents/Education/CS/projects/ElectrifEye/src/Point.cpp
 
-CMakeFiles/ElectrifEye.dir/Point.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ElectrifEye.dir/Point.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nashish/Documents/Education/CS/projects/ElectrifEye/Point.cpp > CMakeFiles/ElectrifEye.dir/Point.cpp.i
+CMakeFiles/ElectrifEye.dir/src/Point.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ElectrifEye.dir/src/Point.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nashish/Documents/Education/CS/projects/ElectrifEye/src/Point.cpp > CMakeFiles/ElectrifEye.dir/src/Point.cpp.i
 
-CMakeFiles/ElectrifEye.dir/Point.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ElectrifEye.dir/Point.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nashish/Documents/Education/CS/projects/ElectrifEye/Point.cpp -o CMakeFiles/ElectrifEye.dir/Point.cpp.s
+CMakeFiles/ElectrifEye.dir/src/Point.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ElectrifEye.dir/src/Point.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nashish/Documents/Education/CS/projects/ElectrifEye/src/Point.cpp -o CMakeFiles/ElectrifEye.dir/src/Point.cpp.s
 
-CMakeFiles/ElectrifEye.dir/World.cpp.o: CMakeFiles/ElectrifEye.dir/flags.make
-CMakeFiles/ElectrifEye.dir/World.cpp.o: ../World.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nashish/Documents/Education/CS/projects/ElectrifEye/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ElectrifEye.dir/World.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ElectrifEye.dir/World.cpp.o -c /Users/nashish/Documents/Education/CS/projects/ElectrifEye/World.cpp
+CMakeFiles/ElectrifEye.dir/src/World.cpp.o: CMakeFiles/ElectrifEye.dir/flags.make
+CMakeFiles/ElectrifEye.dir/src/World.cpp.o: ../src/World.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nashish/Documents/Education/CS/projects/ElectrifEye/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ElectrifEye.dir/src/World.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ElectrifEye.dir/src/World.cpp.o -c /Users/nashish/Documents/Education/CS/projects/ElectrifEye/src/World.cpp
 
-CMakeFiles/ElectrifEye.dir/World.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ElectrifEye.dir/World.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nashish/Documents/Education/CS/projects/ElectrifEye/World.cpp > CMakeFiles/ElectrifEye.dir/World.cpp.i
+CMakeFiles/ElectrifEye.dir/src/World.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ElectrifEye.dir/src/World.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nashish/Documents/Education/CS/projects/ElectrifEye/src/World.cpp > CMakeFiles/ElectrifEye.dir/src/World.cpp.i
 
-CMakeFiles/ElectrifEye.dir/World.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ElectrifEye.dir/World.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nashish/Documents/Education/CS/projects/ElectrifEye/World.cpp -o CMakeFiles/ElectrifEye.dir/World.cpp.s
+CMakeFiles/ElectrifEye.dir/src/World.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ElectrifEye.dir/src/World.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nashish/Documents/Education/CS/projects/ElectrifEye/src/World.cpp -o CMakeFiles/ElectrifEye.dir/src/World.cpp.s
 
-CMakeFiles/ElectrifEye.dir/ElectricFieldController.cpp.o: CMakeFiles/ElectrifEye.dir/flags.make
-CMakeFiles/ElectrifEye.dir/ElectricFieldController.cpp.o: ../ElectricFieldController.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nashish/Documents/Education/CS/projects/ElectrifEye/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ElectrifEye.dir/ElectricFieldController.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ElectrifEye.dir/ElectricFieldController.cpp.o -c /Users/nashish/Documents/Education/CS/projects/ElectrifEye/ElectricFieldController.cpp
+CMakeFiles/ElectrifEye.dir/src/ElectricFieldController.cpp.o: CMakeFiles/ElectrifEye.dir/flags.make
+CMakeFiles/ElectrifEye.dir/src/ElectricFieldController.cpp.o: ../src/ElectricFieldController.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nashish/Documents/Education/CS/projects/ElectrifEye/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ElectrifEye.dir/src/ElectricFieldController.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ElectrifEye.dir/src/ElectricFieldController.cpp.o -c /Users/nashish/Documents/Education/CS/projects/ElectrifEye/src/ElectricFieldController.cpp
 
-CMakeFiles/ElectrifEye.dir/ElectricFieldController.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ElectrifEye.dir/ElectricFieldController.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nashish/Documents/Education/CS/projects/ElectrifEye/ElectricFieldController.cpp > CMakeFiles/ElectrifEye.dir/ElectricFieldController.cpp.i
+CMakeFiles/ElectrifEye.dir/src/ElectricFieldController.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ElectrifEye.dir/src/ElectricFieldController.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nashish/Documents/Education/CS/projects/ElectrifEye/src/ElectricFieldController.cpp > CMakeFiles/ElectrifEye.dir/src/ElectricFieldController.cpp.i
 
-CMakeFiles/ElectrifEye.dir/ElectricFieldController.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ElectrifEye.dir/ElectricFieldController.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nashish/Documents/Education/CS/projects/ElectrifEye/ElectricFieldController.cpp -o CMakeFiles/ElectrifEye.dir/ElectricFieldController.cpp.s
+CMakeFiles/ElectrifEye.dir/src/ElectricFieldController.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ElectrifEye.dir/src/ElectricFieldController.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nashish/Documents/Education/CS/projects/ElectrifEye/src/ElectricFieldController.cpp -o CMakeFiles/ElectrifEye.dir/src/ElectricFieldController.cpp.s
 
-CMakeFiles/ElectrifEye.dir/PointCharge.cpp.o: CMakeFiles/ElectrifEye.dir/flags.make
-CMakeFiles/ElectrifEye.dir/PointCharge.cpp.o: ../PointCharge.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nashish/Documents/Education/CS/projects/ElectrifEye/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ElectrifEye.dir/PointCharge.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ElectrifEye.dir/PointCharge.cpp.o -c /Users/nashish/Documents/Education/CS/projects/ElectrifEye/PointCharge.cpp
+CMakeFiles/ElectrifEye.dir/src/PointCharge.cpp.o: CMakeFiles/ElectrifEye.dir/flags.make
+CMakeFiles/ElectrifEye.dir/src/PointCharge.cpp.o: ../src/PointCharge.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nashish/Documents/Education/CS/projects/ElectrifEye/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ElectrifEye.dir/src/PointCharge.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ElectrifEye.dir/src/PointCharge.cpp.o -c /Users/nashish/Documents/Education/CS/projects/ElectrifEye/src/PointCharge.cpp
 
-CMakeFiles/ElectrifEye.dir/PointCharge.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ElectrifEye.dir/PointCharge.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nashish/Documents/Education/CS/projects/ElectrifEye/PointCharge.cpp > CMakeFiles/ElectrifEye.dir/PointCharge.cpp.i
+CMakeFiles/ElectrifEye.dir/src/PointCharge.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ElectrifEye.dir/src/PointCharge.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nashish/Documents/Education/CS/projects/ElectrifEye/src/PointCharge.cpp > CMakeFiles/ElectrifEye.dir/src/PointCharge.cpp.i
 
-CMakeFiles/ElectrifEye.dir/PointCharge.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ElectrifEye.dir/PointCharge.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nashish/Documents/Education/CS/projects/ElectrifEye/PointCharge.cpp -o CMakeFiles/ElectrifEye.dir/PointCharge.cpp.s
+CMakeFiles/ElectrifEye.dir/src/PointCharge.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ElectrifEye.dir/src/PointCharge.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nashish/Documents/Education/CS/projects/ElectrifEye/src/PointCharge.cpp -o CMakeFiles/ElectrifEye.dir/src/PointCharge.cpp.s
 
-CMakeFiles/ElectrifEye.dir/GeometryController.cpp.o: CMakeFiles/ElectrifEye.dir/flags.make
-CMakeFiles/ElectrifEye.dir/GeometryController.cpp.o: ../GeometryController.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nashish/Documents/Education/CS/projects/ElectrifEye/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ElectrifEye.dir/GeometryController.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ElectrifEye.dir/GeometryController.cpp.o -c /Users/nashish/Documents/Education/CS/projects/ElectrifEye/GeometryController.cpp
+CMakeFiles/ElectrifEye.dir/src/GeometryController.cpp.o: CMakeFiles/ElectrifEye.dir/flags.make
+CMakeFiles/ElectrifEye.dir/src/GeometryController.cpp.o: ../src/GeometryController.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nashish/Documents/Education/CS/projects/ElectrifEye/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ElectrifEye.dir/src/GeometryController.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ElectrifEye.dir/src/GeometryController.cpp.o -c /Users/nashish/Documents/Education/CS/projects/ElectrifEye/src/GeometryController.cpp
 
-CMakeFiles/ElectrifEye.dir/GeometryController.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ElectrifEye.dir/GeometryController.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nashish/Documents/Education/CS/projects/ElectrifEye/GeometryController.cpp > CMakeFiles/ElectrifEye.dir/GeometryController.cpp.i
+CMakeFiles/ElectrifEye.dir/src/GeometryController.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ElectrifEye.dir/src/GeometryController.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nashish/Documents/Education/CS/projects/ElectrifEye/src/GeometryController.cpp > CMakeFiles/ElectrifEye.dir/src/GeometryController.cpp.i
 
-CMakeFiles/ElectrifEye.dir/GeometryController.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ElectrifEye.dir/GeometryController.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nashish/Documents/Education/CS/projects/ElectrifEye/GeometryController.cpp -o CMakeFiles/ElectrifEye.dir/GeometryController.cpp.s
+CMakeFiles/ElectrifEye.dir/src/GeometryController.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ElectrifEye.dir/src/GeometryController.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nashish/Documents/Education/CS/projects/ElectrifEye/src/GeometryController.cpp -o CMakeFiles/ElectrifEye.dir/src/GeometryController.cpp.s
 
 # Object files for target ElectrifEye
 ElectrifEye_OBJECTS = \
-"CMakeFiles/ElectrifEye.dir/main.cpp.o" \
-"CMakeFiles/ElectrifEye.dir/Charge.cpp.o" \
-"CMakeFiles/ElectrifEye.dir/Point.cpp.o" \
-"CMakeFiles/ElectrifEye.dir/World.cpp.o" \
-"CMakeFiles/ElectrifEye.dir/ElectricFieldController.cpp.o" \
-"CMakeFiles/ElectrifEye.dir/PointCharge.cpp.o" \
-"CMakeFiles/ElectrifEye.dir/GeometryController.cpp.o"
+"CMakeFiles/ElectrifEye.dir/src/main.cpp.o" \
+"CMakeFiles/ElectrifEye.dir/src/Charge.cpp.o" \
+"CMakeFiles/ElectrifEye.dir/src/Point.cpp.o" \
+"CMakeFiles/ElectrifEye.dir/src/World.cpp.o" \
+"CMakeFiles/ElectrifEye.dir/src/ElectricFieldController.cpp.o" \
+"CMakeFiles/ElectrifEye.dir/src/PointCharge.cpp.o" \
+"CMakeFiles/ElectrifEye.dir/src/GeometryController.cpp.o"
 
 # External object files for target ElectrifEye
 ElectrifEye_EXTERNAL_OBJECTS =
 
-ElectrifEye: CMakeFiles/ElectrifEye.dir/main.cpp.o
-ElectrifEye: CMakeFiles/ElectrifEye.dir/Charge.cpp.o
-ElectrifEye: CMakeFiles/ElectrifEye.dir/Point.cpp.o
-ElectrifEye: CMakeFiles/ElectrifEye.dir/World.cpp.o
-ElectrifEye: CMakeFiles/ElectrifEye.dir/ElectricFieldController.cpp.o
-ElectrifEye: CMakeFiles/ElectrifEye.dir/PointCharge.cpp.o
-ElectrifEye: CMakeFiles/ElectrifEye.dir/GeometryController.cpp.o
+ElectrifEye: CMakeFiles/ElectrifEye.dir/src/main.cpp.o
+ElectrifEye: CMakeFiles/ElectrifEye.dir/src/Charge.cpp.o
+ElectrifEye: CMakeFiles/ElectrifEye.dir/src/Point.cpp.o
+ElectrifEye: CMakeFiles/ElectrifEye.dir/src/World.cpp.o
+ElectrifEye: CMakeFiles/ElectrifEye.dir/src/ElectricFieldController.cpp.o
+ElectrifEye: CMakeFiles/ElectrifEye.dir/src/PointCharge.cpp.o
+ElectrifEye: CMakeFiles/ElectrifEye.dir/src/GeometryController.cpp.o
 ElectrifEye: CMakeFiles/ElectrifEye.dir/build.make
 ElectrifEye: CMakeFiles/ElectrifEye.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/nashish/Documents/Education/CS/projects/ElectrifEye/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable ElectrifEye"

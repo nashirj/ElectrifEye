@@ -2,7 +2,7 @@
 // Created by Nashir Janmohamed on 3/19/20.
 //
 
-#include "Charge.h"
+#include "../include/ElectrifEye/Charge.h"
 
 float Charge::getMagnitude() const {
     return magnitude;

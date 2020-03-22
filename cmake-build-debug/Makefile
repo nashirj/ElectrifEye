@@ -123,194 +123,194 @@ ElectrifEye/fast:
 	$(MAKE) -f CMakeFiles/ElectrifEye.dir/build.make CMakeFiles/ElectrifEye.dir/build
 .PHONY : ElectrifEye/fast
 
-Charge.o: Charge.cpp.o
+src/Charge.o: src/Charge.cpp.o
 
-.PHONY : Charge.o
-
-# target to build an object file
-Charge.cpp.o:
-	$(MAKE) -f CMakeFiles/ElectrifEye.dir/build.make CMakeFiles/ElectrifEye.dir/Charge.cpp.o
-.PHONY : Charge.cpp.o
-
-Charge.i: Charge.cpp.i
-
-.PHONY : Charge.i
-
-# target to preprocess a source file
-Charge.cpp.i:
-	$(MAKE) -f CMakeFiles/ElectrifEye.dir/build.make CMakeFiles/ElectrifEye.dir/Charge.cpp.i
-.PHONY : Charge.cpp.i
-
-Charge.s: Charge.cpp.s
-
-.PHONY : Charge.s
-
-# target to generate assembly for a file
-Charge.cpp.s:
-	$(MAKE) -f CMakeFiles/ElectrifEye.dir/build.make CMakeFiles/ElectrifEye.dir/Charge.cpp.s
-.PHONY : Charge.cpp.s
-
-ElectricFieldController.o: ElectricFieldController.cpp.o
-
-.PHONY : ElectricFieldController.o
+.PHONY : src/Charge.o
 
 # target to build an object file
-ElectricFieldController.cpp.o:
-	$(MAKE) -f CMakeFiles/ElectrifEye.dir/build.make CMakeFiles/ElectrifEye.dir/ElectricFieldController.cpp.o
-.PHONY : ElectricFieldController.cpp.o
+src/Charge.cpp.o:
+	$(MAKE) -f CMakeFiles/ElectrifEye.dir/build.make CMakeFiles/ElectrifEye.dir/src/Charge.cpp.o
+.PHONY : src/Charge.cpp.o
 
-ElectricFieldController.i: ElectricFieldController.cpp.i
+src/Charge.i: src/Charge.cpp.i
 
-.PHONY : ElectricFieldController.i
+.PHONY : src/Charge.i
 
 # target to preprocess a source file
-ElectricFieldController.cpp.i:
-	$(MAKE) -f CMakeFiles/ElectrifEye.dir/build.make CMakeFiles/ElectrifEye.dir/ElectricFieldController.cpp.i
-.PHONY : ElectricFieldController.cpp.i
+src/Charge.cpp.i:
+	$(MAKE) -f CMakeFiles/ElectrifEye.dir/build.make CMakeFiles/ElectrifEye.dir/src/Charge.cpp.i
+.PHONY : src/Charge.cpp.i
 
-ElectricFieldController.s: ElectricFieldController.cpp.s
+src/Charge.s: src/Charge.cpp.s
 
-.PHONY : ElectricFieldController.s
+.PHONY : src/Charge.s
 
 # target to generate assembly for a file
-ElectricFieldController.cpp.s:
-	$(MAKE) -f CMakeFiles/ElectrifEye.dir/build.make CMakeFiles/ElectrifEye.dir/ElectricFieldController.cpp.s
-.PHONY : ElectricFieldController.cpp.s
+src/Charge.cpp.s:
+	$(MAKE) -f CMakeFiles/ElectrifEye.dir/build.make CMakeFiles/ElectrifEye.dir/src/Charge.cpp.s
+.PHONY : src/Charge.cpp.s
 
-GeometryController.o: GeometryController.cpp.o
+src/ElectricFieldController.o: src/ElectricFieldController.cpp.o
 
-.PHONY : GeometryController.o
+.PHONY : src/ElectricFieldController.o
 
 # target to build an object file
-GeometryController.cpp.o:
-	$(MAKE) -f CMakeFiles/ElectrifEye.dir/build.make CMakeFiles/ElectrifEye.dir/GeometryController.cpp.o
-.PHONY : GeometryController.cpp.o
+src/ElectricFieldController.cpp.o:
+	$(MAKE) -f CMakeFiles/ElectrifEye.dir/build.make CMakeFiles/ElectrifEye.dir/src/ElectricFieldController.cpp.o
+.PHONY : src/ElectricFieldController.cpp.o
 
-GeometryController.i: GeometryController.cpp.i
+src/ElectricFieldController.i: src/ElectricFieldController.cpp.i
 
-.PHONY : GeometryController.i
+.PHONY : src/ElectricFieldController.i
 
 # target to preprocess a source file
-GeometryController.cpp.i:
-	$(MAKE) -f CMakeFiles/ElectrifEye.dir/build.make CMakeFiles/ElectrifEye.dir/GeometryController.cpp.i
-.PHONY : GeometryController.cpp.i
+src/ElectricFieldController.cpp.i:
+	$(MAKE) -f CMakeFiles/ElectrifEye.dir/build.make CMakeFiles/ElectrifEye.dir/src/ElectricFieldController.cpp.i
+.PHONY : src/ElectricFieldController.cpp.i
 
-GeometryController.s: GeometryController.cpp.s
+src/ElectricFieldController.s: src/ElectricFieldController.cpp.s
 
-.PHONY : GeometryController.s
+.PHONY : src/ElectricFieldController.s
 
 # target to generate assembly for a file
-GeometryController.cpp.s:
-	$(MAKE) -f CMakeFiles/ElectrifEye.dir/build.make CMakeFiles/ElectrifEye.dir/GeometryController.cpp.s
-.PHONY : GeometryController.cpp.s
+src/ElectricFieldController.cpp.s:
+	$(MAKE) -f CMakeFiles/ElectrifEye.dir/build.make CMakeFiles/ElectrifEye.dir/src/ElectricFieldController.cpp.s
+.PHONY : src/ElectricFieldController.cpp.s
 
-Point.o: Point.cpp.o
+src/GeometryController.o: src/GeometryController.cpp.o
 
-.PHONY : Point.o
+.PHONY : src/GeometryController.o
 
 # target to build an object file
-Point.cpp.o:
-	$(MAKE) -f CMakeFiles/ElectrifEye.dir/build.make CMakeFiles/ElectrifEye.dir/Point.cpp.o
-.PHONY : Point.cpp.o
+src/GeometryController.cpp.o:
+	$(MAKE) -f CMakeFiles/ElectrifEye.dir/build.make CMakeFiles/ElectrifEye.dir/src/GeometryController.cpp.o
+.PHONY : src/GeometryController.cpp.o
 
-Point.i: Point.cpp.i
+src/GeometryController.i: src/GeometryController.cpp.i
 
-.PHONY : Point.i
+.PHONY : src/GeometryController.i
 
 # target to preprocess a source file
-Point.cpp.i:
-	$(MAKE) -f CMakeFiles/ElectrifEye.dir/build.make CMakeFiles/ElectrifEye.dir/Point.cpp.i
-.PHONY : Point.cpp.i
+src/GeometryController.cpp.i:
+	$(MAKE) -f CMakeFiles/ElectrifEye.dir/build.make CMakeFiles/ElectrifEye.dir/src/GeometryController.cpp.i
+.PHONY : src/GeometryController.cpp.i
 
-Point.s: Point.cpp.s
+src/GeometryController.s: src/GeometryController.cpp.s
 
-.PHONY : Point.s
+.PHONY : src/GeometryController.s
 
 # target to generate assembly for a file
-Point.cpp.s:
-	$(MAKE) -f CMakeFiles/ElectrifEye.dir/build.make CMakeFiles/ElectrifEye.dir/Point.cpp.s
-.PHONY : Point.cpp.s
+src/GeometryController.cpp.s:
+	$(MAKE) -f CMakeFiles/ElectrifEye.dir/build.make CMakeFiles/ElectrifEye.dir/src/GeometryController.cpp.s
+.PHONY : src/GeometryController.cpp.s
 
-PointCharge.o: PointCharge.cpp.o
+src/Point.o: src/Point.cpp.o
 
-.PHONY : PointCharge.o
+.PHONY : src/Point.o
 
 # target to build an object file
-PointCharge.cpp.o:
-	$(MAKE) -f CMakeFiles/ElectrifEye.dir/build.make CMakeFiles/ElectrifEye.dir/PointCharge.cpp.o
-.PHONY : PointCharge.cpp.o
+src/Point.cpp.o:
+	$(MAKE) -f CMakeFiles/ElectrifEye.dir/build.make CMakeFiles/ElectrifEye.dir/src/Point.cpp.o
+.PHONY : src/Point.cpp.o
 
-PointCharge.i: PointCharge.cpp.i
+src/Point.i: src/Point.cpp.i
 
-.PHONY : PointCharge.i
+.PHONY : src/Point.i
 
 # target to preprocess a source file
-PointCharge.cpp.i:
-	$(MAKE) -f CMakeFiles/ElectrifEye.dir/build.make CMakeFiles/ElectrifEye.dir/PointCharge.cpp.i
-.PHONY : PointCharge.cpp.i
+src/Point.cpp.i:
+	$(MAKE) -f CMakeFiles/ElectrifEye.dir/build.make CMakeFiles/ElectrifEye.dir/src/Point.cpp.i
+.PHONY : src/Point.cpp.i
 
-PointCharge.s: PointCharge.cpp.s
+src/Point.s: src/Point.cpp.s
 
-.PHONY : PointCharge.s
+.PHONY : src/Point.s
 
 # target to generate assembly for a file
-PointCharge.cpp.s:
-	$(MAKE) -f CMakeFiles/ElectrifEye.dir/build.make CMakeFiles/ElectrifEye.dir/PointCharge.cpp.s
-.PHONY : PointCharge.cpp.s
+src/Point.cpp.s:
+	$(MAKE) -f CMakeFiles/ElectrifEye.dir/build.make CMakeFiles/ElectrifEye.dir/src/Point.cpp.s
+.PHONY : src/Point.cpp.s
 
-World.o: World.cpp.o
+src/PointCharge.o: src/PointCharge.cpp.o
 
-.PHONY : World.o
+.PHONY : src/PointCharge.o
 
 # target to build an object file
-World.cpp.o:
-	$(MAKE) -f CMakeFiles/ElectrifEye.dir/build.make CMakeFiles/ElectrifEye.dir/World.cpp.o
-.PHONY : World.cpp.o
+src/PointCharge.cpp.o:
+	$(MAKE) -f CMakeFiles/ElectrifEye.dir/build.make CMakeFiles/ElectrifEye.dir/src/PointCharge.cpp.o
+.PHONY : src/PointCharge.cpp.o
 
-World.i: World.cpp.i
+src/PointCharge.i: src/PointCharge.cpp.i
 
-.PHONY : World.i
+.PHONY : src/PointCharge.i
 
 # target to preprocess a source file
-World.cpp.i:
-	$(MAKE) -f CMakeFiles/ElectrifEye.dir/build.make CMakeFiles/ElectrifEye.dir/World.cpp.i
-.PHONY : World.cpp.i
+src/PointCharge.cpp.i:
+	$(MAKE) -f CMakeFiles/ElectrifEye.dir/build.make CMakeFiles/ElectrifEye.dir/src/PointCharge.cpp.i
+.PHONY : src/PointCharge.cpp.i
 
-World.s: World.cpp.s
+src/PointCharge.s: src/PointCharge.cpp.s
 
-.PHONY : World.s
+.PHONY : src/PointCharge.s
 
 # target to generate assembly for a file
-World.cpp.s:
-	$(MAKE) -f CMakeFiles/ElectrifEye.dir/build.make CMakeFiles/ElectrifEye.dir/World.cpp.s
-.PHONY : World.cpp.s
+src/PointCharge.cpp.s:
+	$(MAKE) -f CMakeFiles/ElectrifEye.dir/build.make CMakeFiles/ElectrifEye.dir/src/PointCharge.cpp.s
+.PHONY : src/PointCharge.cpp.s
 
-main.o: main.cpp.o
+src/World.o: src/World.cpp.o
 
-.PHONY : main.o
+.PHONY : src/World.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/ElectrifEye.dir/build.make CMakeFiles/ElectrifEye.dir/main.cpp.o
-.PHONY : main.cpp.o
+src/World.cpp.o:
+	$(MAKE) -f CMakeFiles/ElectrifEye.dir/build.make CMakeFiles/ElectrifEye.dir/src/World.cpp.o
+.PHONY : src/World.cpp.o
 
-main.i: main.cpp.i
+src/World.i: src/World.cpp.i
 
-.PHONY : main.i
+.PHONY : src/World.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/ElectrifEye.dir/build.make CMakeFiles/ElectrifEye.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/World.cpp.i:
+	$(MAKE) -f CMakeFiles/ElectrifEye.dir/build.make CMakeFiles/ElectrifEye.dir/src/World.cpp.i
+.PHONY : src/World.cpp.i
 
-main.s: main.cpp.s
+src/World.s: src/World.cpp.s
 
-.PHONY : main.s
+.PHONY : src/World.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/ElectrifEye.dir/build.make CMakeFiles/ElectrifEye.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/World.cpp.s:
+	$(MAKE) -f CMakeFiles/ElectrifEye.dir/build.make CMakeFiles/ElectrifEye.dir/src/World.cpp.s
+.PHONY : src/World.cpp.s
+
+src/main.o: src/main.cpp.o
+
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) -f CMakeFiles/ElectrifEye.dir/build.make CMakeFiles/ElectrifEye.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) -f CMakeFiles/ElectrifEye.dir/build.make CMakeFiles/ElectrifEye.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) -f CMakeFiles/ElectrifEye.dir/build.make CMakeFiles/ElectrifEye.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -321,27 +321,27 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... ElectrifEye"
-	@echo "... Charge.o"
-	@echo "... Charge.i"
-	@echo "... Charge.s"
-	@echo "... ElectricFieldController.o"
-	@echo "... ElectricFieldController.i"
-	@echo "... ElectricFieldController.s"
-	@echo "... GeometryController.o"
-	@echo "... GeometryController.i"
-	@echo "... GeometryController.s"
-	@echo "... Point.o"
-	@echo "... Point.i"
-	@echo "... Point.s"
-	@echo "... PointCharge.o"
-	@echo "... PointCharge.i"
-	@echo "... PointCharge.s"
-	@echo "... World.o"
-	@echo "... World.i"
-	@echo "... World.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... src/Charge.o"
+	@echo "... src/Charge.i"
+	@echo "... src/Charge.s"
+	@echo "... src/ElectricFieldController.o"
+	@echo "... src/ElectricFieldController.i"
+	@echo "... src/ElectricFieldController.s"
+	@echo "... src/GeometryController.o"
+	@echo "... src/GeometryController.i"
+	@echo "... src/GeometryController.s"
+	@echo "... src/Point.o"
+	@echo "... src/Point.i"
+	@echo "... src/Point.s"
+	@echo "... src/PointCharge.o"
+	@echo "... src/PointCharge.i"
+	@echo "... src/PointCharge.s"
+	@echo "... src/World.o"
+	@echo "... src/World.i"
+	@echo "... src/World.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 
