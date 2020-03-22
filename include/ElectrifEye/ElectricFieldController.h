@@ -7,9 +7,9 @@
 
 #include <memory>
 
-#include "Constants.h"
-#include "PointCharge.h"
-#include "World.h"
+#include "ElectrifEye/Constants.h"
+#include "ElectrifEye/PointCharge.h"
+#include "ElectrifEye/World.h"
 
 #include "GeometryController.h"
 

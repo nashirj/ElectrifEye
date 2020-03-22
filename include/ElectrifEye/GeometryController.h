@@ -8,7 +8,7 @@
 #include <cmath>
 #include <memory>
 
-#include "Point.h"
+#include "ElectrifEye/Point.h"
 
 class GeometryController {
 public:

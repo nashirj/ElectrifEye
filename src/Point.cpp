@@ -3,7 +3,7 @@
 //
 
 #include <iostream>
-#include "../include/ElectrifEye/Point.h"
+#include "ElectrifEye/Point.h"
 
 Point::Point(int x, int y) {
     coordinates = std::make_shared<std::pair<int, int>>(x, y);

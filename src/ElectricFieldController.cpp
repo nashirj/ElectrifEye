@@ -2,7 +2,7 @@
 // Created by Nashir Janmohamed on 3/19/20.
 //
 
-#include "../include/ElectrifEye/ElectricFieldController.h"
+#include "ElectrifEye/ElectricFieldController.h"
 
 float ElectricFieldController::getForceMagnitude(std::shared_ptr<PointCharge> c1, std::shared_ptr<PointCharge> c2) {
     return (constants::k * c1->getMagnitude() * c2->getMagnitude()) / (pow(GeometryController::getEuclideanDistance(c1->getLocation(), c2->getLocation()), 2));

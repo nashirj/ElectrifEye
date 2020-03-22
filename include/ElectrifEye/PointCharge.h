@@ -5,9 +5,8 @@
 #ifndef ELECTRIFEYE_POINTCHARGE_H
 #define ELECTRIFEYE_POINTCHARGE_H
 
-
-#include "Charge.h"
-#include "Point.h"
+#include "ElectrifEye/Charge.h"
+#include "ElectrifEye/Point.h"
 
 class PointCharge : public Charge {
 private:

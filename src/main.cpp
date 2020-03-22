@@ -1,12 +1,10 @@
 #include <iostream>
-#include "../include/ElectrifEye/Charge.h"
-#include "../include/ElectrifEye/Point.h"
-#include "../include/ElectrifEye/PointCharge.h"
-#include "../include/ElectrifEye/ElectricFieldController.h"
-#include "../include/ElectrifEye/GeometryController.h"
 
-#include <iostream>
-using namespace std;
+#include "ElectrifEye/Charge.h"
+#include "ElectrifEye/Point.h"
+#include "ElectrifEye/PointCharge.h"
+#include "ElectrifEye/ElectricFieldController.h"
+#include "ElectrifEye/GeometryController.h"
 
 int main() {
 //    std::cout << "Testing that valgrind detects memory leaks" << std::endl;

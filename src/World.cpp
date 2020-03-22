@@ -2,7 +2,7 @@
 // Created by Nashir Janmohamed on 3/19/20.
 //
 
-#include "../include/ElectrifEye/World.h"
+#include "ElectrifEye/World.h"
 
 World::World(int height, int width) {
     size = std::make_pair(height, width);
