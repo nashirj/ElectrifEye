@@ -8,7 +8,7 @@
 #include <math.h>
 
 class Charge {
-private:
+protected:
     // Charge magnitude given in Coulombs
     float magnitude;
 public:

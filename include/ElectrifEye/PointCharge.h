@@ -10,11 +10,16 @@
 
 class PointCharge : public Charge {
 private:
-    std::shared_ptr<Point> location;
+    Point location;
 public:
-    PointCharge(std::shared_ptr<Charge> c, std::shared_ptr<Point> p);
+    PointCharge(Charge c, Point p);
 
-    std::shared_ptr<Point> getLocation();
+    Point getLocation();
+
+    bool operator< (const PointCharge &right) const
+    {
+        return magnitude < right.magnitude;
+    }
 };
 
 

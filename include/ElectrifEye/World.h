@@ -20,7 +20,7 @@ private:
 
     units::length world_scale;
 
-    std::set<std::shared_ptr<PointCharge>> charges;
+    std::set<PointCharge> charges;
 
     //TODO: update these with non garbage values. maybe get screen resolution and make that default
     int default_width = 600;
@@ -40,9 +40,9 @@ public:
 
     int getHeight();
 
-    std::set<std::shared_ptr<PointCharge>>& getCharges();
+    std::set<PointCharge>& getCharges();
 
-    bool addPointCharge(std::shared_ptr<PointCharge> charge);
+    bool addPointCharge(PointCharge charge);
 };
 
 #endif //ELECTRIFEYE_WORLD_H

@@ -5,20 +5,20 @@
 #include <iostream>
 #include "ElectrifEye/ElectricFieldController.h"
 
-float ElectricFieldController::computeForceMagnitude(std::shared_ptr<PointCharge> c1, std::shared_ptr<PointCharge> c2) {
-    return (constants::k * c1->getMagnitude() * c2->getMagnitude()) / (pow(GeometryController::getEuclideanDistance(c1->getLocation(), c2->getLocation()), 2));
+float ElectricFieldController::computeForceMagnitude(PointCharge c1, PointCharge c2) {
+    return (constants::k * c1.getMagnitude() * c2.getMagnitude()) / (pow(GeometryController::getEuclideanDistance(c1.getLocation(), c2.getLocation()), 2));
 }
 
 //TODO: finish implementing this method
-float ElectricFieldController::computeEFieldAtPoint(std::shared_ptr<PointCharge> pc, std::shared_ptr<Point> p) {
+float ElectricFieldController::computeEFieldAtPoint(PointCharge pc, Point p) {
     //TODO: return a GeometricVector instead of a float
-    return (constants::k * pc->getMagnitude()) / (pow(GeometryController::getEuclideanDistance(pc->getLocation(), p), 2));
+    return (constants::k * pc.getMagnitude()) / (GeometryController::getRSquared(pc.getLocation(), p));
 }
 
-float ElectricFieldController::computeNetEFieldAtPoint(std::shared_ptr<World> w, std::shared_ptr<Point> p) {
+float ElectricFieldController::computeNetEFieldAtPoint(World w, Point p) {
     float net_field = 0;
 //    int i = 0;
-    for (auto charge : w->getCharges()) {
+    for (auto charge : w.getCharges()) {
         net_field += computeEFieldAtPoint(charge, p);
 
 //        //DEBUG
@@ -28,5 +28,3 @@ float ElectricFieldController::computeNetEFieldAtPoint(std::shared_ptr<World> w,
     }
     return net_field;
 }
-
-

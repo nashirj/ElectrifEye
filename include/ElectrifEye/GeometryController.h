@@ -6,13 +6,14 @@
 #define ELECTRIFEYE_GEOMETRYCONTROLLER_H
 
 #include <cmath>
-#include <memory>
 
 #include "ElectrifEye/Point.h"
 
 class GeometryController {
 public:
-    static float getEuclideanDistance(std::shared_ptr<Point> p1, std::shared_ptr<Point> p2);
+    static float getEuclideanDistance(Point p1, Point p2);
+
+    static float getRSquared(Point p1, Point p2);
 };
 
 

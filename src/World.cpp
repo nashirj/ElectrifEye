@@ -33,11 +33,11 @@ int World::getHeight() {
     return size.first;
 }
 
-std::set<std::shared_ptr<PointCharge>>& World::getCharges() {
+std::set<PointCharge>& World::getCharges() {
     return charges;
 }
 
-bool World::addPointCharge(std::shared_ptr<PointCharge> charge) {
+bool World::addPointCharge(PointCharge charge) {
     if (charges.find(charge) == charges.end()) {
         charges.insert(charge);
         return true;
